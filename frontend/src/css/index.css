@@ -200,3 +200,11 @@ ul {
 .ImageCard .btn{
   margin: 2px;
 }
+
+.bth{
+  transition: 0.5s;
+}
+
+.btn:active{
+  transform: translateY(2px);
+}
