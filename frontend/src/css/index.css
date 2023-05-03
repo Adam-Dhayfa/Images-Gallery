@@ -196,3 +196,7 @@ ul {
   margin-right: 0;
   padding-left: 40px;
 }
+
+.ImageCard .btn{
+  margin: 2px;
+}

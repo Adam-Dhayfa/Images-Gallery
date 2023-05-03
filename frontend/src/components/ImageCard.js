@@ -8,7 +8,7 @@ function Download(url) {
 
 const ImageCard = ({ image, deleteImage }) => {
   return (
-    <Card style={{ width: "18rem", color: "black" }}>
+    <Card style={{ width: "18rem", color: "black" }} className="ImageCard">
       <Card.Img variant="top" src={image.urls.small} />
       <Card.Body>
         <Card.Title>{image.title.toUpperCase()}</Card.Title>
