@@ -32,7 +32,7 @@ export default function ContactUs() {
               )}
             </address>
             <p>{contactConfig.description}</p>
-            <p><a href="https://github.com/Adam-Dhayfa/Images-Gallery" target="_blank">GitHub</a></p>
+            <p><a href="https://github.com/Adam-Dhayfa/Images-Gallery" target="_blank" rel="noreferrer">GitHub</a></p>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form  className="contact__form">

@@ -22,6 +22,7 @@ body {
 }
 
 body {
+  overflow: hidden;
   margin: 0;
   height: 100%;
   overflow-x: hidden;
@@ -31,6 +32,15 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
 }
 
 ul {
@@ -150,9 +160,7 @@ code {
   border: 1px #FF0000 solid;
   transition: 0.5s;
 }
-.Welcome .btn:hover{
-  background: #FF0000;
-}
+
 
 .Search .btn{
   border: 1px #FF0000 solid;
@@ -178,9 +186,10 @@ code {
 .About{
   font-family: 'Courier New', Courier, monospace;
 }
+
 .About h1{
   text-align: center;
-  font-size: 90px;
+  font-size: 80px;
 }
 
 
@@ -192,19 +201,145 @@ ul {
   list-style-type: disc;
   margin-top: 1em;
   margin-bottom: 1 em;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: 10px;
+  margin-right: 10px;
   padding-left: 40px;
+
 }
 
 .ImageCard .btn{
   margin: 2px;
 }
 
-.bth{
-  transition: 0.5s;
+.btn{
+  transition: 1s;
 }
 
 .btn:active{
-  transform: translateY(2px);
+  transform: translateY(4px);
+}
+
+.left_navlinks{
+  justify-content: end;
+}
+
+.left_navlinks a.active {
+  color: #FF0000;
+}
+
+.Auth-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+
+.Auth-form {
+  border-radius: 8px;
+}
+
+.Auth-form-title {
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.login-form {
+  padding: 2rem;
+}
+
+.form{
+  width: 420px;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.form-control,.form-control:focus{
+  background-color: #000;
+  color: var(--text-color);
+  border-radius: 0 !important;
+  border: 1px solid #FF0000;
+}
+
+.form-bt .btn{
+  border: 1px #FF0000 solid;
+  background: none;
+  transition: 0.5s ;
+}
+
+.form-bt .btn:hover{
+  background: #FF0000;
+}
+
+.forgot-password{
+  text-align: center;
+}
+
+
+.About .Text{
+  padding: auto;
+}
+
+.Mid-Section{
+  display: flex;
+  margin-top: 10em;
+  vertical-align: middle;
+}
+
+.img-one{
+  margin-left: 300px;
+}
+
+.About img{
+  box-shadow: 2px 2px 100px #950101;
+}
+
+.imgOneText{
+  margin-top: 5em;
+  font-size: 25px;
+  float: right;
+}
+
+.Sec-Section{
+  display: flex;
+  margin-top: 18em;
+}
+
+.imgTwoText{
+  float: right;
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+.img-two{
+  float: left;
+}
+
+.iOptions{
+  display: flex;
+  justify-content: center;
+  padding-right: 70px;
+  margin-bottom: 30px;
+}
+
+
+.ImageCard{
+  box-shadow: 2px 2px 100px #950101;
+}
+
+.Sec-Section{
+  margin-bottom: 2em;
 }

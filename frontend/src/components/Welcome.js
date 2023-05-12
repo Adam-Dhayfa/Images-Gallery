@@ -10,7 +10,7 @@ const divStyles = {
 
 const Welcome = () =>{
     return(
-        <div className="row align-items-md-stretch" class="Welcome" style={divStyles}>
+        <div className="Welcome row align-items-md-stretch" style={divStyles}>
         <div class="p-5 mb-4 rounded-3">
           <div class="h-100 p-5 text-white bg-dark rounded-3">
             <h2>Images Gallery</h2>

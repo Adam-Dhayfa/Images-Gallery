@@ -22,13 +22,15 @@ const Header = ({ title }) => {
           />
         </Navbar.Brand>
         <Navbar.Brand href="/">{title}</Navbar.Brand>
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Collapse className="left_navlinks">
+          <NavLink className="link" to="/About" >
+            About
+          </NavLink>
           <NavLink className="link" to="/" >
             Home
           </NavLink>
-          <NavLink className="link" to="/About" >
-            About
+          <NavLink className="link" to="/Log_In" >
+            Sign in
           </NavLink>
           <NavLink className="link" to="/Contact" >
             Contact
