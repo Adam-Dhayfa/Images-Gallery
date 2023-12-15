@@ -21,12 +21,12 @@ const Header = ({ title }) => {
             alt={title}
           />
         </Navbar.Brand>
-        <Navbar.Brand href="/">{title}</Navbar.Brand>
+        <Navbar.Brand href="/Images-Gallery">{title}</Navbar.Brand>
         <Navbar.Collapse className="left_navlinks">
           <NavLink className="link" to="/About" >
             About
           </NavLink>
-          <NavLink className="link" to="/" >
+          <NavLink className="link" to="/Images-Gallery" >
             Home
           </NavLink>
           <NavLink className="link" to="/Log_In" >

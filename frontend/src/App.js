@@ -19,7 +19,7 @@ function App() {
     <Router>
       <Header title={"Images Gallery"}/>
     <Routes>
-        <Route path="/" element={<Home/>}/>
+        <Route path="/Images-Gallery" element={<Home/>}/>
         <Route path="/About" element={<About/>}/>
         <Route path="/Log_In" element={<LogIn/>}/>
         <Route path="/Contact" element={<ContactUs />} />  

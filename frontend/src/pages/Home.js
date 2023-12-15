@@ -31,6 +31,7 @@ export default function Home() {
       });
     setWord("");
   };
+  
   return (
     <div className="App">
       <Search word={word} setWord={setWord} handleSubmit={handleSearchSubmit} />

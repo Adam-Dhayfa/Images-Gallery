@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
+import { Container, Row, Col, Button, Nav } from "react-bootstrap";
 import { useState } from "react";
 
 const divStyles = {
